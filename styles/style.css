@@ -1,0 +1,183 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.top-info{
+    height: 677px;
+    display: flex;
+    padding-left: 150px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+
+/* top header style */
+.title{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.login-button{
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    transition: transform 1s ease;
+}
+.login-button:hover{
+    transform: scale(1.5);
+    background-color: green;
+}
+.fa-arrow-right{
+    color: white;
+    width: 24px;
+    height: 24px;
+}
+.top-banner{
+    width: 556.01px;
+    height: 438px;
+}
+.top-banner img{
+    width: 388px;
+    height: 428px;
+}
+/* Players section styles */
+.top-players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 100%;
+    height: 256px;
+}
+.player-name{
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #18191F;
+}
+/* mid player section styles */
+.section-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 48px;
+    color: #0A0826;
+    margin-bottom: 8px;
+}
+.section-details{
+    width: 404px;
+}
+.section-banner img{
+    width: 567px;
+    height: 427px;
+}
+/*-----------------
+ bonus part styles 
+ ----------------*/
+
+/* club players styles */
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.photo-frame{
+    height: 255px;
+    width: 300px;
+    border: 1px solid goldenrod;
+    position: relative;
+    margin: 15px;
+    
+}
+.photo-frame:hover .photo-details{
+    display: block;
+    background-color: rgba(102, 131, 141, 0.507);
+}
+
+.photo img{
+    width: 100%;
+}
+.photo-details{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    display: none;
+}
+.photo-details h3{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.photo-details p{
+    color: white;
+    padding: 10px;
+}
+
+/* login styles */
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+.login-form input{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+
+/* footer styles added */
+footer{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.foo-banner img{
+    width: 262.1px;
+}
+.social-icon{
+    margin-right: 14px;
+    font-size: 24px;
+}
+
+@media only screen and (max-width:688px) {
+    .top-info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
